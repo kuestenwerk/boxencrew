@@ -1,6 +1,33 @@
 # Boxencrew
 
-Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, hüpfende Pixel-Figuren im Küstenwerk-Look (Asphalt, Gelb, Weiß) über dem Eingabefeld, gleichmäßig über die ganze Breite verteilt. Über jeder Figur steht ein Namensschild mit Rolle und Aufgabe. Fährt man mit der Maus darüber, zeigt sie, was der Agent gerade tut. Ist ein Agent fertig, verschwindet seine Figur.
+Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, hüpfende Pixel-Figuren im Küstenwerk-Look über dem Eingabefeld.
+
+## Installation
+
+**In einer Claude-Code-Sitzung im Terminal:**
+
+```
+/plugin install boxencrew --marketplace kuestenwerk/boxencrew
+```
+
+Die Frage nach dem Marketplace mit `y` bestätigen, dann als Bereich „user“ wählen (Enter). Die Mod läuft sofort und in jeder neuen Sitzung.
+
+**Aus einer Shell:**
+
+```bash
+claude plugin install boxencrew --marketplace kuestenwerk/boxencrew
+```
+
+Gilt ab der nächsten neuen Claude-Code-Sitzung.
+
+**In der Desktop-App** (dort läuft `/plugin` nicht): auf das + neben dem Eingabefeld klicken, dann Plugins, Add marketplace mit `kuestenwerk/boxencrew`, dann Add plugin.
+
+**Aktualisieren:** `claude plugin update boxencrew@boxencrew`, danach neue Sitzung.
+**Entfernen:** `claude plugin uninstall boxencrew@boxencrew`
+
+## Was sie zeigt
+
+Die Figuren verteilen sich gleichmäßig über die ganze Breite des Eingabefelds. Über jeder Figur steht ein Namensschild mit Rolle und Aufgabe, beim Überfahren mit der Maus zeigt sie, was der Agent gerade tut. Ist ein Agent fertig, verschwindet seine Figur.
 
 | Figur | Wer |
 |---|---|
@@ -13,24 +40,6 @@ Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, h
 | Tankwart | Forks |
 
 Im Terminal erscheint statt der Bilder eine Textzeile je Figur.
-
-## Installation
-
-In einer Claude-Code-Sitzung im Terminal:
-
-```
-/plugin install boxencrew --marketplace kuestenwerk/boxencrew
-```
-
-Danach die Frage nach dem Marketplace mit `y` bestätigen und als Bereich „user“ wählen (Enter).
-
-Aus einer Shell:
-
-```bash
-claude plugin install boxencrew --marketplace kuestenwerk/boxencrew
-```
-
-In der Desktop-App (dort läuft `/plugin` nicht): auf das + neben dem Eingabefeld klicken, dann Plugins, Add marketplace mit `kuestenwerk/boxencrew`, dann Add plugin.
 
 ## Anpassen
 
