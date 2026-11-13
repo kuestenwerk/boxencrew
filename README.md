@@ -1,6 +1,6 @@
 # Boxencrew
 
-Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, hüpfende Pixel-Figuren im Küstenwerk-Look über dem Eingabefeld.
+Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, hüpfende Pixel-Figuren im Renndesign-Look über dem Eingabefeld.
 
 ## Installation
 

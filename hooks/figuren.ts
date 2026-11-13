@@ -8,7 +8,7 @@ export const FARBE: Record<string, string> = {
   s: '#C98E62', // Mund
   E: '#15171A', // Augen
   K: '#0E0F11', // Visier, Headset, Brille
-  Y: '#FFC300', // Küstenwerk-Gelb
+  Y: '#FFC300', // Renngelb
   y: '#B88A00',
   W: '#F4F4F4',
   w: '#B8BEC6',
