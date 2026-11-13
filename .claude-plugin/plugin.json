@@ -1,0 +1,6 @@
+{
+  "name": "boxencrew",
+  "version": "0.4.0",
+  "description": "Zeigt arbeitende Subagenten als hüpfende Pixel-Figuren im Küstenwerk-Look über dem Eingabefeld (7 Rollen).",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "boxencrew",
+  "owner": { "name": "Küstenwerk" },
+  "description": "Boxencrew-Mod für Claude Code",
+  "plugins": [
+    {
+      "name": "boxencrew",
+      "source": "./",
+      "description": "Arbeitende Subagenten als hüpfende Pixel-Figuren im Küstenwerk-Look über dem Eingabefeld."
+    }
+  ]
+}
