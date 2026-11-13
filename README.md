@@ -2,6 +2,8 @@
 
 Eine Mod für Claude Code: Solange Subagenten arbeiten, stehen sie als kleine, hüpfende Pixel-Figuren im Renndesign-Look über dem Eingabefeld.
 
+![Die sieben Figuren der Boxencrew mit Namensschild: Teamchef, Renningenieur, Mechaniker, Reifenwechsler, Lollipop-Mann, Streckenposten, Tankwart](docs/crew.svg)
+
 ## Installation
 
 **In einer Claude-Code-Sitzung im Terminal:**
@@ -47,3 +49,4 @@ Im Terminal erscheint statt der Bilder eine Textzeile je Figur.
 - Welche Rolle ein Agent bekommt: `REGELN` in `hooks/figuren.ts`, die erste passende Regel auf den Agententyp gewinnt.
 - Neue Rolle: Bild und Regel in `hooks/figuren.ts`, Name in `types/index.d.ts`.
 - Prüfen: `claude plugin test .` und `claude plugin validate .`
+- Bild oben neu erzeugen: `node docs/bild-erzeugen.mts` (Node 23.6 oder neuer).
